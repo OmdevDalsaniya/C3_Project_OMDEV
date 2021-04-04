@@ -60,4 +60,8 @@ public class Restaurant {
     public String getName() { return name; }
 
     public String getLocation() { return location; }
+
+    public int addPriceForSelectedItem(List<String> selectedItem){
+        return 0;
+    }
 }
