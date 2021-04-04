@@ -60,6 +60,7 @@ class RestaurantTest {
     public void return_total_Amount_for_SelectedItem(){
         List<String> actualSelectedItem = new ArrayList<>();
         actualSelectedItem.add("Sweet corn soup");
-        assertEquals( 119, restaurant.addPriceForSelectedItem(actualSelectedItem));
+        actualSelectedItem.add("Vegetable lasagne");
+        assertEquals( 388, restaurant.addPriceForSelectedItem(actualSelectedItem));
     }
 }
